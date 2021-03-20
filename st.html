@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <title>Shopping cart </title>
+    <link rel="icon" href="Images/icon-shopping.png" />
+       <link
+      rel="stylesheet"
+      type="text/css"
+      href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+
+  <body>
+    <div class="cart-row">
+      <span class="cart-item cart-header cart-column">ITEM</span>
+      <span class="cart-price cart-header cart-column">PRICE</span>
+      <span class="cart-quantity cart-header cart-column">QUANTITY</span>
+    </div>
+    <div class="cart-items">
+      <div class="cart-row">
+        <div class="cart-item cart-column">
+          <img
+            class="cart-item-image"
+            src="./Images/img1-chaussure.jpg"
+            width="100"
+            height="100"
+          />
+          <span > <i class="fa fa-heart heart " ></i></span>
+       
+          <span class="cart-item-title">New shoes</span>
+        </div>
+        <span class="cart-price cart-column">$1500
+          
+        </span>
+        
+            
+        <div class="cart-quantity cart-column">
+          <input class="cart-quantity-input" type="number" value="1" />
+          <button class="btn btn-danger" type="button">
+            <i class="fa fa-trash" aria-hidden="true"></i>
+            REMOVE</button>
+        </div>
+      </div>
+      <div class="cart-row">
+        <div class="cart-item cart-column">
+          <img
+            class="cart-item-image"
+            src="./Images/img2-sac.jpg"
+            width="100"
+            height="100"
+          />
+          <span > <i class="fa fa-heart heart " ></i></span>
+       
+          <span class="cart-item-title">New bag</span>
+        </div>
+        <span class="cart-price cart-column">$2500
+         
+        </span>
+
+        <div class="cart-quantity cart-column">
+          <input class="cart-quantity-input" type="number" value="2" />
+          <button class="btn btn-danger" type="button">
+            <i class="fa fa-trash" aria-hidden="true"></i>
+            REMOVE</button>
+        </div>
+      </div>
+      <div class="cart-row">
+        <div class="cart-item cart-column">
+          <img
+            class="cart-item-image"
+            src="./Images/img-chaussure.jpg"
+            width="100"
+            height="100"
+          />
+          <span > <i class="fa fa-heart heart " ></i></span>
+       
+          <span class="cart-item-title">New shoes</span>
+        </div>
+        <span class="cart-price cart-column">$1500
+          
+       
+        </span>
+        
+            
+        <div class="cart-quantity cart-column">
+          <input class="cart-quantity-input" type="number" value="1" />
+          <button class="btn btn-danger" type="button">
+            <i class="fa fa-trash" aria-hidden="true"></i>
+            REMOVE</button>
+        </div>
+      </div>
+    </div>
+    <div class="cart-total">
+      <strong class="cart-total-title">Total</strong>
+      <span class="cart-total-price">$0</span>
+    </div>
+    <button class="btn btn-primary btn-purchase" type="button">PURCHASE</button>
+   
+  <script src="st.js"></script>
+  </body>
+  
+</html>
